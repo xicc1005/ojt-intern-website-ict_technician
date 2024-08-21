@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Courier -->
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Inconsolata -->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-[#FFFFFF] h-auto">
+        <nav class="flex flex-col mx-10 shadow-b-500 mt-5">
+            <div class="pb-5">
+                <a class="flex justify-start items-center" href="index.html"><img class="h-10 w-10" src="images/nemsu-logo.png" alt="...">
+                <h1 class="text-xl font-[Poppins] font-[700] text-blue-900">ICT<span class="text-xl font-[Poppins] text-[#CFD8B9]">TECHNICIAN</span></h1></a>
+            </div>
+
+            <div class="border-b-gray-300 border-b-2 w-[100%]"></div>
+
+            <div class="py-5">
+                <ul class="flex justify-end gap-20">
+                    <li><a class="text-xl text-[#6A6A6A] font-bold font-[Inconsolata] hover:text-gray-700" href="#home">Home</a></li>
+                    <li><a class="text-xl text-[#6A6A6A] font-bold font-[Inconsolata] hover:text-gray-700" href="#computer-laboratory-policy">Computer Laboratory Policy</a></li>
+                    <li><a class="text-xl text-[#6A6A6A] font-bold font-[Inconsolata] hover:text-gray-700" href="#rooms">Rooms</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <main class="bg-[#EEEEEE] h-auto py-10 flex justify-center gap-10 mx-10 sm:flex-col" id="home">
+        <div class="flex sm:flex-col sm:p-10">
+            <h1 class="text-[6rem] font-[Poppins] font-[900] sm:text-[2.5rem]">Welcome to</h1>
+            <h1 class="text-[6rem] font-[Poppins] font-[900] sm:text-[2.5rem]">ICT TECHNICIAN</h1>
+            <p class="text-[1.3rem] font-[Poppins] font-[300] sm:text-[1.3rem]">To learn more scroll down or click the button below.</p><br><br>
+            <a class="border-black border-2 p-2 font-[600] transition ease-in-out delay-150 hover:bg-black hover:text-[#FFFFFF] sm:w-[111px]" href="#room-policy">READ MORE</a>
+        </div>
+        <div class="flex justify-center items-center">
+            <img class="h-120 w-[400px]" src="images/workshop.jpeg" alt="">
+        </div>
+    </main>
+
+    <!-- Room Policy -->
+    <section class="my-20 mx-10 flex flex-row justify-center gap-10 sm:flex-col" id="computer-laboratory-policy">
+        <div class="flex items-center">
+            <img class="h-120 w-[550px]" src="images/computer.svg" alt="">
+        </div>
+
+        <div class="flex flex-col w-3/4 sm:w-auto">
+            <h1 class="font-[Poppins] font-[900] text-3xl mb-10">COMPUTER LABORATORY POLICY & GUIDELINES</h1>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">1. Do not loiter or socialize in the computer laboratory. Computer laboratories are to maintain a "library like" atmosphere.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">2. Do not leave your personal belongings unattended. Laboratory assistant and in-charge are not responsible for lost, stolen or moved items. It is your responsibility to keep your own property safe and secure. </p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">3. The viewing of pornographic or other sexual explicit materials in the laboratory is not permitted.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">4. The user is responsible for observing all copyright and licensing laws.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">5. Absolutely no alcohol, tobacco or other drugs permitted in the laboratory. Anyone suspected to be under the influence of drugs or alcohol will be asked to leave and possibly lose their laboratory privileges.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">6. The laboratory assistant or computer technician will assist in using the laboratory facility.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">7. One student with computer laboratory subject(sm) is allowed to use the computer units. </p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">8. Since the workstations are deepfreeze to prevent virus attack on relevant files thus, students are required to use flash drive for file storage.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">9. The course instructor is the only authorized person who can manipulate and access the server. He or she is accountable for any lost computing devices or peripherals during his or her scheduled time of duty. Thus no student is permitted to use the computer units without the presence of their course instructor.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">10. The course instructor should make sure that the computer units and circuit breakers are properly turned off, AVR cables are unplug, windows and doors are closed, chairs and so with the computer peripherals are arranged before leaving the laboratory.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">11. In order to provide productive and professional environment for all users, disruptive behavior, game playing or viewing of inappropriate materials will not be tolerated.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">12. Headphones may be connected to any computer units, provided that the volume be kept at an appropriate level. </p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">13. Users are not permitted to interfere with the operation of any laboratory printer. This includes removing pages while the printer is processing and expelling finished documents. This is to ensure that the pages for any user's print job are not shuffled and misplaced. Additionally, all printer control consolers are off limits. The laboratory assistant or in-charge should be contracted for errors that may occur.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">14. Do not attempt to repair the monitor and CPU. SDSSU Administration advises repair by authorized computer laboratory technicians only.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">15. Position keyboards and mouse to prevent bumping or dropping them off the work surface.</p>
+        </div>
+    </section>
+
+    <div class="border-b-gray-300 border-b-2 mx-10"></div>
+
+    <section class="mt-10 mb-20 mx-10 flex flex-row justify-center gap-10 sm:flex-col">
+        <div class="flex flex-col w-3/4 sm:w-auto sm:mb-0">
+            <h1 class="font-[Poppins] font-[900] text-3xl">SAFETY AND PRECAUTIONARY MEASURES</h1>
+            <h1 class="font-[Inconsolata] font-[500] text-xl text-gray-700 mb-10">Computer and Internet Laboratories</h1>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">1. Establishment of perimeters for computer laboratories based on the school's rules. These include blocking prohibited websites and estab- lishing criteria for firewall.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">2. Posting of "Computer Lab Rules" that clearly states computer laboratory restrictions. These may include prohibition of food and drink, download ing software, opening attachments, removal of equipment, access to illic it sites and more.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">3. Plugging all computer equipment into a surge protector to prevent dam- ages in case of lightning storms.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">4. Setting-up weekly updates or automatic updates for computers.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">5. Installation of anti-spyware program on computers and/or network.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">6. Back up of relevant files on a regular basis.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">7. Use of hard disc clean up and defragmentation utilities regularly.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">8. Not to unplug printers, scanners and other connected machines when the computers are on.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">9. Turning off all computers by selecting the shutdown option on the desk- top.</p>
+            <p class="font-[Inconsolata] text-m text-gray-500 my-1">10. Cleaning of computer laboratory regularly.</p>
+        </div>
+
+        <div class="relative flex items-center justify-center">
+            <img class="h-300 w-[700px]" src="images/laptop.svg" alt="">
+            <img class="h-40 w-[250px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" src="images/exclamation.svg" alt="">
+        </div>        
+    </section>
+
+    <!-- Rooms -->
+     <section class="bg-[#EEEEEE] mx-10" id="rooms">
+        <div class="flex flex-col p-10 gap-10">
+            <div class="flex flex-row gap-10 flex justify-center items-center sm:flex-col sm:border-b-black sm:border-b-2">
+                <div>
+                    <img class="h-[400px] w-[600px]" src="images/ICT BUILDING.jpg" alt="">
+                </div>
+                <div>
+                    <h1 class="font-[Poppins] font-[900] text-[3.9rem]">ICT BUILDING</h1>
+                    <h1 class="font-[Poppins] font-[700] text-[2rem] text-gray-700">NEMSU TANDAG CAMPUS</h1>
+                </div>
+            </div>
+
+            <div class="flex justify-center items-center">
+                <h1 class="font-[Poppins] font-[700] text-[2rem] text-gray-700">ROOMS WITH COMPUTER LABORATORY</h1>
+            </div>
+
+            <div class="flex flex-row gap-10 sm:flex-col">
+                <img class="h-[400px] w-[610px]" src="images/comlab 1.jpeg" alt="">
+                <img class="h-[400px] w-[610px]" src="images/comlab 2.jpeg" alt="">
+            </div>
+
+            <div class="flex justify-center items-center gap-10 sm:flex-col">
+                <img class="h-[400px] w-[600px]" src="images/601.jpeg" alt="">
+                <img class="h-[400px] w-[600px]" src="images/602.jpeg" alt="">
+                <img class="h-[400px] w-[600px]" src="images/603.jpeg" alt="">
+            </div>
+
+            <div class="flex justify-center items-center gap-10 sm:flex-col">
+                <img class="h-[400px] w-[610px]" src="images/502.jpeg" alt="">
+                <img class="h-[400px] w-[610px]" src="images/501.jpeg" alt="">
+            </div>
+        </div>
+     </section>
+
+
+     <!-- Footer -->
+    <footer class="flex justify-center justify-center my-10">
+        <p class="text-gray-400 text-sm font-[Inconsolata]">© All rights reserved by ICT-TECHNICIAN-INTERNS.</p>
+    </footer>
+</body>
+</html>
